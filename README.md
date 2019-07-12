@@ -1,4 +1,4 @@
-# python自动化学习路线
+# Python自动化学习路线
 
 
 <img src="https://github.com/zangfans/pythonstack/blob/master/python_logo.png" width="200">
@@ -15,7 +15,9 @@
 
 《Python Cookbook》第三版中文
 
+《Python无师自通》
+
+《Python核心编程》 第3版 中文版
 
 
-
-
+廖雪峰Python博客[]: https://www.liaoxuefeng.com/wiki/1016959663602400
