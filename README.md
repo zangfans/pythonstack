@@ -3,7 +3,7 @@
 
 
 
-<img src="https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png" width="100">
+<img src="https://github.com/zangfans/pythonstack/blob/master/python_logo.png" width="100">
 
 ----
 ##### note:人生最可拍的事，一边嫌弃着自己的生活，一边又不做任何努力和改变
