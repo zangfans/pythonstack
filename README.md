@@ -19,5 +19,5 @@
 
 《Python核心编程》 第3版 中文版
 
+[廖雪峰Python博客](https://www.liaoxuefeng.com/wiki/1016959663602400)
 
-廖雪峰Python博客[]: https://www.liaoxuefeng.com/wiki/1016959663602400
