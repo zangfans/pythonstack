@@ -21,7 +21,7 @@
 
 [廖雪峰Python博客](https://www.liaoxuefeng.com/wiki/1016959663602400)
 
-《Python自动化运维 技术与最佳实践》
+
 
 
 
