@@ -13,11 +13,15 @@
 
 ### python书籍
 
-《Python Cookbook》第三版中文
 
-《Python无师自通》
+《Python无师自通》 
 
-《Python核心编程》 第3版 中文版
+《Python Cookbook》第三版中文  
+
+《Python核心编程》 第2版 中文版 `《Python核心》卷一的第二版`
+
+《Python核心编程》 第3版 中文版 `《Python核心》卷二的第三版`
+    
 
 [廖雪峰Python博客](https://www.liaoxuefeng.com/wiki/1016959663602400)
 
