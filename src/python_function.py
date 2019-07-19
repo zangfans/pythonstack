@@ -12,12 +12,10 @@
 # wrapper(x=1,y=2)
 # wrapper(1,y=2)
 
-def foo(x,y,*,a,b):
-    print(x)
-    print(y)
-    print(a)
-    print(b)
-
-foo(1,2,b=20,a=10)
-
-
+# def foo(x,y,*,a,b):
+#     print(x)
+#     print(y)
+#     print(a)
+#     print(b)
+#
+# foo(1,2,b=20,a=10)
