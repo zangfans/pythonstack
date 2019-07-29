@@ -52,8 +52,8 @@
 # print(linux.clear())
 
 #解压
-a,*_={'zzz','sss','xxxx','cccc','vvv','qqq'}
-print(a)
+# a,*_={'zzz','sss','xxxx','cccc','vvv','qqq'}
+# print(a)
 
 
 
