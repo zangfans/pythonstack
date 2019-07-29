@@ -30,20 +30,20 @@ from functools import reduce
 '''
 文件内光标移动
 '''
-# f = open("test.txt","r+")
-# print('文件名为：',f.name)
+f = open("test.txt","r+")
+print('文件名为：',f.name)
 
-# #读取每一行的数据并返回
-# count = 1
-# while count <= 2:
-#     count += 1
-#     line = f.readline()
-#     print("读取到的数据: %s" %(line))
+#读取每一行的数据并返回
+count = 1
+while count <= 2:
+    count += 1
+    line = f.readline()
+    print("读取到的数据: %s" %(line))
 
-# f.seek(3,0)
-# line = f.readline()
-# print("读取到的数据: %s" %(line))
-# f.close()
+f.seek(3,0)
+line = f.readline()
+print("读取到的数据: %s" %(line))
+f.close()
 
 
 
