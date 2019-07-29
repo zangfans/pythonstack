@@ -130,17 +130,17 @@
 # print(type(obj))
 
 
-# def re_sort2():
-#     s = input('请输入一串字符串：>>')
-#     li = []
-#     for i in s:
-#         li.append(i)
-#     li.reverse()
-#     print(li)
-#     print(type(li))
-#     return ''.join(li)
-# obj2 = re_sort2()
-# print(type(obj2))
+def re_sort2():
+    s = input('请输入一串字符串：>>')
+    li = []
+    for i in s:
+        li.append(i)
+    li.reverse()
+    print(li)
+    print(type(li))
+    return ''.join(li)
+obj2 = re_sort2()
+print(type(obj2))
 
 
 '''
