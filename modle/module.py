@@ -6,7 +6,7 @@ import math
 import random
 import statistics
 import keyword
-
+import hello
 
 # import sys
 # for i in sys.modules:
@@ -45,7 +45,7 @@ print(statistics.mode(nums))
 print(keyword.iskeyword("for"))
 print(keyword.iskeyword("zangfans"))
 
-
+print(hello.print_hello())
 
 
 
