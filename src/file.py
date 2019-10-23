@@ -64,6 +64,7 @@ with open("st.txt","r") as f:
 print(my_list)
 
 
+
 with open("st.csv","w") as f:
     w = csv.writer(f,delimiter=",")
     w.writerow(["one","two","three"])
