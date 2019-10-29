@@ -97,11 +97,27 @@ stan = Dog("Stanley", "Bulldog", mick)
 print(stan.owner.name)
 
 
+class Lion():
+    def __init__(self, name):
+        self.name = name
+
+    def __repr__(self):
+        return self.name
+
+Lion = Lion("小黄")
+print(Lion)
 
 
+class AlwaysPostive():
+    def __init__(self, number):
+        self.n = number
 
+    def __add__(self, other):
+        return abs(self.n + other.n)
 
-
+x = AlwaysPostive(-20)
+y = AlwaysPostive(10)
+print(x + y)
 
 
 
