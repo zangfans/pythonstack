@@ -39,9 +39,12 @@ print(or1.weight, or1.color)
 print(or2.weight, or2.color)
 
 class Rectangle():
+    recs = []
+
     def __init__(self, w, l):
         self.width = w
         self.len = l
+        self.recs.append((self.width,self.len))
 
     def area(self):
         return self.width * self.len
@@ -50,10 +53,16 @@ class Rectangle():
         self.width = w
         self.len = l
 
-rectangle = Rectangle(10, 20)
-print(rectangle.area())
-rectangle.change_size(20, 40)
-print(rectangle.area())
+    def print_size(self):
+        print("""{} by {}""".format(self.width,self.len))
+r1 = Rectangle(10, 10)
+r2 = Rectangle(20, 20)
+print(Rectangle.recs)
+
+# rectangle = Rectangle(10, 20)
+# print(rectangle.area())
+# rectangle.change_size(20, 40)
+# print(rectangle.area())
 
 
 class shape():
