@@ -15,7 +15,9 @@
 
 《Python无师自通》 
 
-《Python Cookbook》第三版中文  
+《Python Cookbook》第三版中文 
+
+《毫无障碍学Python》
 
 《Python核心编程》 第2版 中文版 `《Python核心》卷一的第二版`
 
