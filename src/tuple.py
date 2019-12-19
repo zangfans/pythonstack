@@ -30,6 +30,12 @@ t[1][0]='aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
 print(t)
 
 
+#元祖类型数据更改方法：把元组数据转换为列表赋予一个新对象，在进行更改
+tuple4=(1,2,3,4)
+list4 = list(tuple4)
+print(list4)
+list4.append(5)
+print(list4)
 
 
 
