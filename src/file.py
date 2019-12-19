@@ -4,6 +4,8 @@
 import os
 import time
 from functools import reduce
+import csv
+
 
 # f = open('test1.txt','ab')
 # f.write("\nhello world".encode('utf-8'))
@@ -27,35 +29,46 @@ from functools import reduce
 # os.remove('test.txt')
 # os.rename('test.txt.swap','test.txt')
 
-'''
-文件内光标移动
-'''
-f = open("test.txt","r+")
-print('文件名为：',f.name)
-
-#读取每一行的数据并返回
-count = 1
-while count <= 2:
-    count += 1
-    line = f.readline()
-    print("读取到的数据: %s" %(line))
-
-f.seek(3,0)
-line = f.readline()
-print("读取到的数据: %s" %(line))
-f.close()
-
-
+# '''
+# 文件内光标移动
+# '''
+# f = open("test.txt","r+")
+# print('文件名为：',f.name)
+#
+# #读取每一行的数据并返回
+# count = 1
+# while count <= 2:
+#     count += 1
+#     line = f.readline()
+#     print("读取到的数据: %s" %(line))
+#
+# f.seek(3,0)
+# line = f.readline()
+# print("读取到的数据: %s" %(line))
+# f.close()
 
 
-
-
-
+# st = open("st.txt","a")
+# st.write("hello friend")
+# st.close()
 
 
 
+with open("st.txt","a+") as f:
+    f.write("\nhi from python")
+
+my_list = []
+#读取文件对象并赋予列表中
+with open("st.txt","r") as f:
+    my_list.append(f.read())
+print(my_list)
 
 
+
+with open("st.csv","w") as f:
+    w = csv.writer(f,delimiter=",")
+    w.writerow(["one","two","three"])
+    w.writerow(["four","five","six"])
 
 
 
